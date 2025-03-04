@@ -63,7 +63,7 @@ def delete_item(id):
         return jsonify({"error":"Item not found"})
     else:
         items.remove(item)
-        return jsonify({"message":"Item deleted"})
+        return jsonify({"message":"Item deleted!!"})
 
 if __name__=="__main__":
     app.run(debug=True)
